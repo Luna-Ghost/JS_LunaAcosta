@@ -4,8 +4,8 @@ console.log("Alto: " + columnas);
 console.log("Ancho: " + filas);
 
 let inicio = 1;
-num=1;
-fibonacci=1;
+let num=1;
+let fibonacci=1;
 let sucesion = [];
 
 for(let i = 0; i < columnas; i++)
