@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Disco';
+    src: url('./statics/DiscoDiva.ttf');
+}
+
+body{
+    background: rgb(83,83,83);
+    background: radial-gradient(circle, rgba(83,83,83,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: cover;
+}
+h1{
+    font-family: 'Disco';
+    margin: 3rem 0 1.38rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 0;
+    font-size: 3.5rem;
+    text-align: center;
+    color: darkgrey;
+}
+h3{
+    font-family: 'Disco';
+    margin: 3rem 0 1.38rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: darkgrey;
+}
+table{
+    border-collapse: collapse;
+    border-color: darkgrey;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+div{
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+}
+#boton{
+    background-color: #16b900;
+    text-align: center;
+    border-radius: 40% 0 40% 0;
+    width: 100px;
+    height: 50px;
+    font-family: fantasy;
+}
+#button{
+    position: relative;
+    left: 46%;
+    top: 50px;
+}
+#boton:hover{
+    background-color: #00b670;
+    position: relative;
+    left: 10px;
+    top: 13px;
+    text-align: center;
+    border-radius: 40% 0 40% 0;
+    width: 80px;
+    height: 30px;
+    font-family: fantasy;
+}
+#mayor{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    left: 525px;
+    top: 100px;
+}
+#cuadro1{
+    display: block;
+    background-color: #FF38E1;
+}
+#cuadro1:hover,#cuadro1:focus{
+    background-color: #ff3a96;
+}
+#cuadro2{
+    display: block;
+    background-color: #319FFF;
+}
+#cuadro2:hover,#cuadro2:focus{
+    background-color: #3f31ff;
+}
+#cuadro3{
+    display: block;
+    background-color: #FA9A00;
+}
+#cuadro3:hover,#cuadro3:focus{
+    background-color: #fa7900;
+}
+#cuadro4{
+    display: block;
+    background-color: #3EFF00;
+}
+#cuadro4:hover,#cuadro4:focus{
+    background-color: #0f9103;
+}
