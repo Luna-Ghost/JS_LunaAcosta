@@ -29,7 +29,7 @@ body{
     left: 800px;
   }
   
-//=================Ojos=================//
+/*=================Ojos=================*/
 
   .ojo{
     width: 80px;
@@ -87,7 +87,7 @@ body{
     animation: par2 4s linear infinite alternate paused;
   }
 
-//=================Botones=================//
+/*=================Botones=================*/
   
   .boton{
     width: 150px;
@@ -117,7 +117,7 @@ body{
     color: black;
   }
 
-//=================Colores=================//
+/*=================Colores=================*/
 
   #rojo{
     background-color: red;
@@ -140,7 +140,7 @@ body{
     top: 450px;
   }
   
-//=================Extra=================//
+/*=================Extra=================*/
 
   #pregunta{
     position: absolute;
@@ -150,7 +150,7 @@ body{
     background-color: aliceblue;
   }
   
-//=================Animaciones=================//
+/*=================Animaciones=================*/
   @keyframes ojo {
     0%{
         position: relative;
