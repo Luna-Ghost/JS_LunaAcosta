@@ -1,0 +1,287 @@
+body{
+  background-color: black;
+}
+#cuerpo{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    animation: estirada2 4s linear infinite alternate paused;
+  }
+  
+  #interior{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #00cc00;
+    border-radius: 100% 100% 70% 70%;
+    background-color: #00cc00;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    animation: estirada 4s linear infinite alternate paused;
+  }
+
+  .color{
+    width: 150px;
+    height: 150px;
+    border: 1px solid darkslategray;
+    position: absolute;
+    left: 800px;
+  }
+  
+  .ojo{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+  }
+
+  .parpado{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #00cc00;
+    background-color: #00cc00;
+    border-radius: 100%;
+  }
+  
+  .pupila{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  
+  #derecha{
+    position: relative;
+    left: 250px;
+    top: 100px;
+    animation:  ojo 4s linear infinite alternate paused;
+    /*animation:  estirada3 4s linear infinite alternate paused;*/
+  }
+  #izquierda{
+    position: relative;
+    left: 100px;
+    top: 11px;
+    animation: ojo2 4s linear infinite alternate paused;
+  }
+
+  #par1{
+    /*position: relative;*/
+    left: 250px;
+    top: 100px;
+    animation:  par1 4s linear infinite alternate paused;
+  }
+  
+  
+  #par2{
+    /*position: relative;*/
+    left: 100px;
+    top: 11px;
+    animation: par2 4s linear infinite alternate paused;
+  }
+  
+  .boton{
+    width: 150px;
+    height: 20px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  #boton1{
+    position: relative;
+  }
+  #boton2{
+    position: relative;
+    left: 152px;
+    top: -22px;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: rgb(255, 123, 0);
+  }
+  #boton3{
+    position: relative;
+    left: 304px;
+    top: -44px;
+    border: 1px solid rgb(255, 166, 0);
+    background-color: rgb(255, 166, 0);
+    color: black;
+  }
+  #rojo{
+    background-color: red;
+    position: absolute;
+    top: 0%;
+  }
+  #amarillo{
+    background-color: yellow;
+    position: absolute;
+    top: 150px;
+  }
+  #verde{
+    background-color: #00cc00;
+    position: absolute;
+    top: 300px;
+  }
+  #azul{
+    background-color: blue;
+    position: absolute;
+    top: 450px;
+  }
+  
+  #pregunta{
+    position: absolute;
+    top: 0%;
+    left: 520px;
+    color: darkslategray;
+    background-color: aliceblue;
+  }
+  
+
+  @keyframes ojo {
+    0%{
+        position: relative;
+        left: 250px;
+        top: 100px;
+    }
+    50%{
+        position: relative;
+        left: 200px;
+        top: 100px;
+    }
+    75%{
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+  }
+  
+  @keyframes ojo2 {
+    0%{
+        position: relative;
+        left: 100px;
+        top: 12px;
+    }
+    50%{
+        position: relative;
+        left: 150px;
+        top: 11px;
+    }
+    75%{
+        position: relative;
+        left: 150px;
+        top: 11px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 150px;
+        top: 11px;
+    }
+  }
+
+  @keyframes par1 {
+    0%{
+        position: relative;
+        left: -3px;
+        top: -44px;
+        opacity: 0.0; 
+    }
+    50%{
+        position: relative;
+        left: -3px;
+        top: -44px;
+        opacity: 1.0; 
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: -3px;
+        top: -44px;
+        opacity: 0.0; 
+    }
+  }
+  @keyframes par2 {
+    0%{
+        position: relative;
+        left: -2px;
+        top: -44px;
+        opacity: 0.0; 
+    }
+    50%{
+        position: relative;
+        left: -2px;
+        top: -44px;
+        opacity: 1.0;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: -2px;
+        top: -44px;
+        opacity: 0.0;
+    }
+}
+
+@keyframes estirada {
+  0%{
+      width: 400px;
+      height: 400px; 
+      position: relative;
+      top: 50px;
+      left: 50px;
+  }
+  50%{
+      width: 420px;
+      height: 380px; 
+      position: relative;
+      top: 50px;
+      left: 50px;
+  }
+  75%{
+      width: 440px;
+      height: 360px; 
+      position: relative;
+      top: 50px;
+      left: 50px;
+  }
+  100%{
+      width: 460px;
+      height: 340px; 
+      position: relative;
+      top: 50px;
+      left: 50px;
+  }
+}
+@keyframes estirada2 {
+  0%{
+      width: 500px;
+      height: 500px;
+  }
+  50%{
+      width: 520px;
+      height: 480px;
+  }
+  75%{
+      width: 540px;
+      height: 460px;
+  }
+  100%{
+      width: 560px;
+      height: 440px;
+  }
+}
