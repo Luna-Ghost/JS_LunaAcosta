@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dibuja dibujos 5000</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <canvas id="canvas" width="500" height="500"></canvas>
+            </td>
+            <td id="menu">
+                <p>Color de fondo: </p>
+                <input type="color" id="1">
+                <br>
+                <p>Color degradado (solo en degradados): </p>
+                <input type="color" id="2">
+                <br>
+                <p>Tipo de relleno: </p>
+                <select id="relleno">
+                    <option value="solido" id="op1">Solido</option>
+                    <option value="lineal" id="op2">Degradado lineal</option>
+                    <option value="circular" id="op3">Degradado circular</option>
+                </select>
+                <br>
+                <p>Figura: </p>
+                <select id="figura">
+                    <option value="estrella" id="fig1">Estrella</option>
+                    <option value="micky" id="fig2">Mickey Mouse</option>
+                    <option value="torre" id="fig3">Torre</option>
+                </select>
+                <br><br>
+                <input type="button" value="Dibujar" id="dibujar">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

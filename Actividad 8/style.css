@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1
+{
+    color: greenyellow;
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+canvas{
+    background-color: white;
+}
+p{
+    color: yellowgreen;
+}
+#menu{
+    position: relative;
+    left: 30px;
+}
