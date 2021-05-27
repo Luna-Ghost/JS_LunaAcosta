@@ -14,7 +14,7 @@ $(document).ready(function() {
             alert("fallo")
         })
     })
-    $(".filtmod").on("onChange", ()=>{
+    $(".filtmod").on("change", ()=>{
         let filtro = $(".filtmod").val();
         let peticion = $.ajax({
             url:"./dynamics/php/Consultas.php",
